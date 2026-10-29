@@ -33,7 +33,7 @@
 <p>Si vous contactez le support, Julia reçoit votre adresse e-mail, le contenu de votre demande et les pièces jointes choisies. Ces informations ne sont pas destinées à être publiées.</p>
 <h2>Microphone et sons</h2>
 <p>Le microphone est utilisé à votre demande pendant un exercice oral. Vous pouvez refuser sa permission ou la retirer dans les réglages de l'iPhone. La capture dure au maximum 15 secondes. Les échantillons sont traités temporairement en mémoire sur le téléphone, puis effacés après traitement ou annulation. Sabai ne les enregistre pas dans un fichier et ne les envoie pas à un serveur de transcription. Les mots reconnus sont comparés localement à la réponse attendue avec une tolérance. Seul le résultat de cette comparaison est affiché. Cette comparaison ne mesure pas la qualité de votre accent. La transcription n'est pas synchronisée avec votre compte.</p>
-<p>Le modèle khmer est inclus dans l'application. Pour les autres langues, si le moteur local du téléphone n’est pas disponible, l’exercice oral télécharge un modèle de secours d’environ 82 Mo depuis Hugging Face. Le téléchargement ne contient ni votre voix, ni votre transcription, ni votre identifiant Sabai. Le modèle reste dans le cache du téléphone et peut être téléchargé de nouveau si ce cache est vidé.</p>
+<p>Si le moteur local du téléphone ne prend pas en charge la langue du cours, Sabai peut télécharger un modèle depuis Hugging Face : environ 60 Mo pour le khmer, 265 Mo pour le birman et 82 Mo pour les autres langues disposant d’un repli validé. Un ancien modèle khmer reste inclus pour les essais sans connexion. Le lao ne dispose pas encore d’un repli validé : si aucun moteur lao local n’est disponible sur l’appareil, Sabai le signale et laisse continuer. Ces téléchargements ne contiennent ni votre voix, ni votre transcription, ni votre identifiant Sabai. Les modèles restent dans le cache du téléphone et peuvent être téléchargés de nouveau si ce cache est vidé.</p>
 <p>Les sons khmers fournis par Sabai ont été préparés avant distribution. L'écoute de ces fichiers n'envoie pas votre voix à Azure. Certaines autres prononciations utilisent les voix disponibles sur le système du téléphone.</p>
 <p>Les rappels sont programmés localement après votre choix. Sabai ne collecte pas de jeton de notification distante pour ces rappels. Ils peuvent être désactivés dans l'application ou dans les réglages du téléphone.</p>
 <h2>Pourquoi ces données sont utilisées</h2>
@@ -73,7 +73,7 @@
 </tr>
 <tr>
 <td>Hugging Face, Inc.</td>
-<td>Distribution du modèle de reconnaissance multilingue. Le téléchargement expose l'IP et des informations techniques de connexion au service et à son infrastructure de diffusion. Aucun audio ni texte reconnu n'y est envoyé par Sabai.</td>
+<td>Distribution des modèles de reconnaissance vocale. Le téléchargement expose l'IP et des informations techniques de connexion au service et à son infrastructure de diffusion. Aucun audio ni texte reconnu n'y est envoyé par Sabai.</td>
 </tr>
 </tbody>
 </table>
